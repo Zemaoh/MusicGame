@@ -3,6 +3,7 @@ body {
   background: linear-gradient(45deg,#FFCC29, #009739);
   background-size: 200% 200%;
   animation: lightwave 10s ease-in-out infinite;
+  background-attachment: fixed;
 }
 
 @keyframes lightwave {
