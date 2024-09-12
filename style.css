@@ -1,0 +1,188 @@
+body {
+  text-align: center;
+  background: linear-gradient(45deg,#FFCC29, #009739);
+  background-size: 200% 200%;
+  animation: lightwave 10s ease-in-out infinite;
+}
+
+@keyframes lightwave {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  font-size: 4.5rem;
+  color: #FFFFFF;
+  font-family: "Arvo", cursive;
+  text-shadow: 4px 4px 6px #FFCC29, -4px -4px 6px #009739;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+h1:hover {
+  transform: scale(1.05);
+  text-shadow: 6px 6px 10px #FFCC29, -6px -6px 10px #009739;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: #ffffff; 
+  font-family: sans-serif;
+  padding: 10px 20px; 
+  font-size: 1rem; 
+  border-top: 2px solid #FFCC29; 
+  border-radius: 25px; 
+  width: 80%; 
+  margin: 20px auto; 
+  text-align: center; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.w {
+
+  background-image: url('images/brasil1.jpg');
+  background-size: cover;  
+  background-position: center;  
+  background-repeat: no-repeat;  
+
+}
+
+.a {
+
+  background-image: url('images/brasil2.jpg');
+  background-size: cover;  
+  background-position: center;  
+  background-repeat: no-repeat;  
+
+}
+
+.s {
+
+  background-image: url('images/brasil3.jpg');
+  background-size: cover;  
+  background-position: center;  
+  background-repeat: no-repeat;  
+
+}
+
+.d {
+
+  background-image: url('images/brasil4.jpg');
+  background-size: cover;  
+  background-position: center;  
+  background-repeat: no-repeat;  
+
+}
+
+.j {
+
+  background-image: url('images/brasil5.jpg');
+  background-size: cover;  
+  background-position: center;  
+  background-repeat: no-repeat;  
+
+}
+
+.k {
+
+  background-image: url('images/brasil6.jpg');
+  background-size: cover;  
+  background-position: center;  
+  background-repeat: no-repeat;  
+
+}
+
+.l {
+
+  background-image: url('images/brasil7.jpg');
+  background-size: cover;  
+  background-position: center;  
+  background-repeat: no-repeat;  
+
+}
+
+.set {
+  margin: 10% auto;
+  margin-bottom: 5%; /* Reduce el espacio inferior al 50% del valor original */
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #002776;
+  opacity: 0.5;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #FFCC29;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #009739;
+  text-shadow: 2px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.playing {
+  color: #FFCC29;  
+  font-weight: bold; 
+}
+
+
+h2 {
+  font-size: 1.5rem;
+  color: #FFFFFF
+  ;
+  font-family: "Arvo", cursive;
+  }
+
+  p {
+    font-size: 0.8rem;
+    color: #FFFFFF
+    ;
+    font-family: "Arvo", cursive;
+    }
+  
+
+  #stopAll {
+    background-color: #009739; 
+    color: #FFCC29; 
+    border: 3px solid #002776; 
+    font-family: 'Arvo', sans-serif; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+    transition: background-color 0.3s ease;
+  }
+  
+  #stopAll:hover {
+    background-color: #FFCC29; 
+    color: #002776; 
+    border-color: #009739; 
+  }
